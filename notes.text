@@ -5,7 +5,7 @@ test-data format:
 "title": "",
 "year":"",
 "cast": "",
-"imdb" "",
+"isHit": "",
 }
 
 A.File-Structure
@@ -17,9 +17,21 @@ A.File-Structure
 4.b : asyncWrappers
 4.c: Custom Error Classes
 
+3. Routes:
+/api/v1/movies : GET : Gets All movies
+/api/v1/movies : POST : Creates a movie
+/api/v1/movie/:id : GET 1 : Get movie with id
+/api/v1/movie/:id : PATCH 1 :  Updates 1 movie with id
+/api/v1/movie/:id : DELETE 1 : Deletes 1 movie with id.
+
 Version Control:
 1. RoutesValidation -- final -- master
 2. RoutesValidation -- asynWrappers -- dev1
 3. RoutesValidation -- CustomErrorClasses - dev2
 
 
+
+
+Steps:
+1. Define basic working routes in app.js -- CRUD with basic json r response. test them in Postman
+2. 
