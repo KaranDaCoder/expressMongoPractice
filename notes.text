@@ -1,0 +1,25 @@
+expressMongoDB:
+
+test-data format:
+{
+"title": "",
+"year":"",
+"cast": "",
+"imdb" "",
+}
+
+A.File-Structure
+1. Express-routes : Define routes
+2. MongoDB : Cloud setup
+3. MongoDB Connect : connects.js
+4. Routes validation : 
+4.a : try catch
+4.b : asyncWrappers
+4.c: Custom Error Classes
+
+Version Control:
+1. RoutesValidation -- final -- master
+2. RoutesValidation -- asynWrappers -- dev1
+3. RoutesValidation -- CustomErrorClasses - dev2
+
+
